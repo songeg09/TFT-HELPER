@@ -1,0 +1,91 @@
+h1 {
+    color: black;
+    font-size:50px;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+.container{
+    text-align:center;
+    margin-top: 50px;
+}
+
+.home-button{
+    position:relative;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+}
+
+.text-wrap{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    z-index: 1;
+    text-align: left;
+}
+
+.text-wrap h1{
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+.unit-picture{
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+}
+
+.unit-list{
+    position:relative;
+    display: inline-block;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.unit-name h1{
+    color: white;
+    font-size: 12px;
+    -webkit-text-stroke: 1px black;
+}
+
+.item-list{
+    position:relative;
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    max-width: 64px;
+    height: 64px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+}
+
+.recommend-picture{
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+}
+
+.recommend-list{
+    position:relative;
+    display: inline-block;
+    margin: 10px;
+    width: 120px;
+    height: 100%;
+}
+
+
+
